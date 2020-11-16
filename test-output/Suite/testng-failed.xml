@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="POS.Jenkins3">
+        <methods>
+          <include name="A_Login"/>
+          <include name="B_ClickOnbilling"/>
+          <include name="browserlaunch"/>
+          <include name="C_Assert"/>
+        </methods>
+      </class> <!-- POS.Jenkins3 -->
+      <class name="POS.Jenkins2">
+        <methods>
+          <include name="B_close"/>
+          <include name="A_launchBrowser"/>
+        </methods>
+      </class> <!-- POS.Jenkins2 -->
+      <class name="POS.Pos_jenkins">
+        <methods>
+          <include name="B_sales"/>
+          <include name="A_Login"/>
+          <include name="Launchbrowser"/>
+          <include name="C_newItem"/>
+        </methods>
+      </class> <!-- POS.Pos_jenkins -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
